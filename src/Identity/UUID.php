@@ -6,7 +6,7 @@ use EmbarkNow\ValueObjects\Exception\InvalidNativeArgumentException;
 use EmbarkNow\ValueObjects\StringLiteral\StringLiteral;
 use EmbarkNow\ValueObjects\Util\Util;
 use EmbarkNow\ValueObjects\ValueObjectInterface;
-use Rhumsaa\Uuid\Uuid as BaseUuid;
+use Ramsey\Uuid\Uuid as BaseUuid;
 
 class UUID extends StringLiteral
 {
